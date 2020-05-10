@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  padding: 0 20px;
+  background-color: #F7F7F7;
+}
+
+header {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+header svg {
+  color: #FF385C;
+}
+
+#main {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex: 1;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.card {
+  margin: 20px;
+  position: relative;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.25);
+}
+
+.card img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.card img.plus {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 10px;
+  bottom: 10px;
+  color: #FF385C;
+}
+
+.card .card-body {
+  width: 300px;
+  padding: 10px;
+}
+.card .card-body h5 {
+  text-transform: uppercase;
+  color: #222;
+}
+
+.card .card-body p {
+  display: block;
+  margin: 5px 0;
+}
+
+.card .card-body strong {
+  color: #484848;
+}
+
+footer strong {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #dedede;
+  margin-top: 20px;
+}
+
+footer strong img {
+  margin: 0 7px;
+}
+
+footer strong a img.social {
+  margin-left: 20px;
+}
+
+footer strong a:hover img.social svg {
+  color: #484848;
+}
