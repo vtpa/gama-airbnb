@@ -9,6 +9,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
+  text-align: center;
   width: 100%;
   padding: 0 20px;
   background-color: #F7F7F7;
@@ -23,6 +24,13 @@ header {
 
 header svg {
   color: #FF385C;
+}
+
+h1 {
+  background: -webkit-linear-gradient(45deg, rgb(146, 23, 77), rgb(228, 29, 92));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 10px auto;
 }
 
 #main {
